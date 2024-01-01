@@ -3,19 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather app</title>
-    <link rel="stylesheet" href="ind.css">
+    <title>Weather App</title>
+    <style>
+        body {
+            background-image:url('https://img.freepik.com/premium-photo/white-wall-clean-cement-background-textured-blank-copy-space_24076-674.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 50px;
+        }
+        form {
+            text-align: center;
+        }
+        p {
+            margin-top: -20px;
+            font-family: 'Times New Roman', Times, serif; 
+            font-weight: bold;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            margin: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #006400; 
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004d00; 
+        }
+    </style>
 </head>
 <body>
-    <div align="center" class="fo">
-    <form action="\" method="post">
+    <form action="/" method="post">
         <p>Enter the city name</p>
         <input type="text" name="city">
         <button type="submit">Search</button>
-
-
     </form>
-</div>
-    
 </body>
 </html>
