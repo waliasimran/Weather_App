@@ -1,5 +1,143 @@
-/* Apply styles to form */
+/* General body styling */
+/* General body styling */
+/* General body styling */
+/* General body styling */
+/* General body styling */
+/* General body styling */
+/* General body styling */
+/* General body styling */
+
+/* General body styling */
+/* General body styling */
+/* General body styling */
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure body covers the viewport */
+    color: #333;
+}
+
+/* Form container styling */
 .form-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 90px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    z-index: 1; /* Ensure form is above other content */
+}
+
+.form-container h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: #006400;
+}
+
+.form-container p {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2.2em;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Button for current location */
+#currentLocationBtn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Styling for weather details page */
+.weather-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 800px; /* Adjusted max-width for wider content */
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden; /* Ensure no scrolling within the box */
+    position: relative; /* Ensure it stays above background */
+    z-index: 0; /* Behind form container */
+}
+
+.weather-details h1 {
+    font-size: 1.8em; /* Adjusted font size */
+    margin-bottom: 15px;
+    color: darkgreen; /* Heading color for 5-Day Forecast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the heading */
+}
+
+.weather-details p {
+    font-size: 1.2em; /* Adjusted font size */
+    margin: 10px 0;
+    color: blue; /* Today's weather details in black */
+}
+
+/* Styling for forecast details */
+.weather-details .forecast-item p {
+    margin: 10px 0;
+    color: blue; /* Font color for the forecast text */
+}
+
+/* Specific styling for the forecast details */
+.forecast-details {
+    color: blue;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+
+
+
+
+/* .form-container {
     margin-top: 50px;
 }
 
@@ -28,12 +166,76 @@ button:hover {
 }
 
 /* Apply styles to weather details */
-.weather-container {
+/* .weather-container {
     margin-top: 30px;
     text-align: center;
 }
 
 p {
-    font-size: 80x;
+    font-size: 20px;
     margin: 5px;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Apply styles to form */
+ /* .form-container {
+    margin-top: 50px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+
+/* Apply styles to weather details */
+/* .weather-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 30x;
+    margin: 5px;
+} 
+
